@@ -1,0 +1,25 @@
+{
+    "name": "huncrys/cakephp-countercache-shell",
+    "type": "cakephp-plugin",
+    "description": "A CakePHP plugin containing a CounterCache shell, which can be used to rebuild data provided by the CounterCache behavior.",
+    "keywords": ["cakephp", "plugin", "counter", "cache", "countercache", "shell", "rebuild", "maintenance"],
+    "homepage": "https://github.com/huncrys/cakephp-countercache-shell",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristóf Bach",
+            "email": "crys@crys.hu",
+            "homepage": "https://crys.hu"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "cakephp/plugin-installer": "*",
+        "cakephp/cakephp": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Crys\\CounterCacheShell\\": "src"
+        }
+    }
+}
